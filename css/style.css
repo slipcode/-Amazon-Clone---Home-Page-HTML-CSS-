@@ -107,15 +107,27 @@ header {
 .select-country{
     height: 22px;
     width: 68px;
+   
 }
 .select-country select{
-    width: 100%;
+    width: 68px;
     height: 100%;
     border: none;
     outline: none;
     background: none;
     color: var(--white-color);
+    border: none;
+    outline: none;
+   
+    
 }
+
+.select-country option{
+    margin-top: 10px;
+ background: var(--black-color);
+ font-size: 20px;
+}
+
 
 
 /* acount status */
