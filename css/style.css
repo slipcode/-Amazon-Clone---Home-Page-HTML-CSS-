@@ -29,6 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 3px;
 }
 
 /* site logo */
@@ -65,7 +66,7 @@ header {
 .search-box{
     display: flex;
     align-items: center;
-    width: 684px;
+    width: 600px;
     height: 34px;
     gap: 0;
 }
@@ -101,6 +102,8 @@ header {
     font-size: 25px;
     cursor: pointer;
 }
+
+/* country selection */
 .select-country{
     height: 22px;
     width: 68px;
@@ -112,4 +115,32 @@ header {
     outline: none;
     background: none;
     color: var(--white-color);
+}
+
+
+/* acount status */
+
+.account-status{
+    width: 165px;
+    height: 42px;
+    font-size: 12px;
+}
+.account-status span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* cart section */
+.cart{
+    display: flex;
+    align-items: center;
+    width: 79px;
+    height: 52px;
+    font-size: 30px;
+    
+}
+.cart span{
+    margin: 10px 0 0 5px;
+    font-size: 20px;
 }
