@@ -81,6 +81,7 @@ header {
     font-family: var(--primary-font);
     border-radius: 5px 0 0 5px;
     margin: 0;
+    cursor: pointer;
 }
 .search-box select option{
     display: inline-block;
@@ -107,9 +108,11 @@ header {
 .select-country{
     height: 22px;
     width: 68px;
+    
    
 }
 .select-country select{
+    cursor: pointer;
     width: 68px;
     height: 100%;
     border: none;
@@ -126,6 +129,8 @@ header {
     margin-top: 10px;
  background: var(--black-color);
  font-size: 20px;
+ 
+ 
 }
 
 
