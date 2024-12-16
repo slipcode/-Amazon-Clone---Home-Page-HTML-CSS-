@@ -303,6 +303,22 @@ header {
     margin: 0;
 }
 
+.hero-area .first-div .div-wraper div:first-child {
+    background: url(../img/image\ 4.png) no-repeat;
+}
+
+.hero-area .first-div .div-wraper div:nth-child(2) {
+    background: url(../img/image\ 5.png) no-repeat;
+}
+
+.hero-area .first-div .div-wraper div:nth-child(3) {
+    background: url(../img/image\ 6.png) no-repeat;
+}
+
+.hero-area .first-div .div-wraper div:last-child {
+    background: url(../img/image\ 3.png) no-repeat;
+}
+
 
 
 
